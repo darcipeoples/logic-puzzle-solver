@@ -124,15 +124,34 @@ function populate_solution(data) {
 }
 
 const initial_data = {
-  "gridary":{"A1B1":1,"A1B2":1,"A1B3":1,"A1B4":1,"A1B5":9,"A1C1":1,"A1C2":9,"A1C3":1,"A1C4":1,"A1C5":1,"A1D1":9,"A1D2":1,"A1D3":1,"A1D4":1,"A1D5":1,"A2B1":1,"A2B2":1,"A2B3":1,"A2B4":9,"A2B5":1,"A2C1":1,"A2C2":1,"A2C3":1,"A2C4":1,"A2C5":9,"A2D1":1,"A2D2":1,"A2D3":1,"A2D4":9,"A2D5":1,"A3B1":9,"A3B2":1,"A3B3":1,"A3B4":1,"A3B5":1,"A3C1":9,"A3C2":1,"A3C3":1,"A3C4":1,"A3C5":1,"A3D1":1,"A3D2":1,"A3D3":1,"A3D4":1,"A3D5":9,"A4B1":1,"A4B2":9,"A4B3":1,"A4B4":1,"A4B5":1,"A4C1":1,"A4C2":1,"A4C3":1,"A4C4":9,"A4C5":1,"A4D1":1,"A4D2":1,"A4D3":9,"A4D4":1,"A4D5":1,"A5B1":1,"A5B2":1,"A5B3":9,"A5B4":1,"A5B5":1,"A5C1":1,"A5C2":1,"A5C3":9,"A5C4":1,"A5C5":1,"A5D1":1,"A5D2":9,"A5D3":1,"A5D4":1,"A5D5":1},
-  "gridstate":"999919991919999919999919991999999911999999919991991999999919999919919991999",
-  "pretty":"🟥🟥🟥🟥🟩 🟥🟩🟥🟥🟥 🟩🟥🟥🟥🟥 \n🟥🟥🟥🟩🟥 🟥🟥🟥🟥🟩 🟥🟥🟥🟩🟥 \n🟩🟥🟥🟥🟥 🟩🟥🟥🟥🟥 🟥🟥🟥🟥🟩 \n🟥🟩🟥🟥🟥 🟥🟥🟥🟩🟥 🟥🟥🟩🟥🟥 \n🟥🟥🟩🟥🟥 🟥🟥🟩🟥🟥 🟥🟩🟥🟥🟥 ",
-  "table-json":{"data":[["January","Wendell","Faith","Belize"],["February","Noel","Velma","Nepal"],["March","Horace","Amelia","Vietnam"],["April","Jacob","Naomi","Mongolia"],["May","Leon","Ida","Jordan"]],"headers":["Months","Chiroptologists","Speleologists","Countries"]},
-  "table-text":"Months     Chiroptologists   Speleologists   Countries  \n---------- ----------------- --------------- -----------\nJanuary    Wendell           Faith           Belize     \nFebruary   Noel              Velma           Nepal      \nMarch      Horace            Amelia          Vietnam    \nApril      Jacob             Naomi           Mongolia   \nMay        Leon              Ida             Jordan     ",
-  "url":"https://logic.puzzlebaron.com/play.php?u2=33d066d4fd08efb3b69c0f4f6f516a80",
-  "categories":{"Chiroptologists":["Horace","Jacob","Leon","Noel","Wendell"],"Countries":["Belize","Jordan","Mongolia","Nepal","Vietnam"],"Months":["January","February","March","April","May"],"Speleologists":["Amelia","Faith","Ida","Naomi","Velma"]},
-  "category-keys":["Months","Chiroptologists","Speleologists","Countries"],
-}
+  gridary: {
+    A1B1: 1, A1B2: 1, A1B3: 1, A1B4: 1, A1B5: 9, A1C1: 1, A1C2: 9, A1C3: 1, A1C4: 1, A1C5: 1, A1D1: 9, A1D2: 1, A1D3: 1, A1D4: 1, A1D5: 1, A2B1: 1, A2B2: 1, A2B3: 1, A2B4: 9, A2B5: 1, A2C1: 1, A2C2: 1, A2C3: 1, A2C4: 1, A2C5: 9, A2D1: 1, A2D2: 1, A2D3: 1, A2D4: 9, A2D5: 1, A3B1: 9, A3B2: 1, A3B3: 1, A3B4: 1, A3B5: 1, A3C1: 9, A3C2: 1, A3C3: 1, A3C4: 1, A3C5: 1, A3D1: 1, A3D2: 1, A3D3: 1, A3D4: 1, A3D5: 9, A4B1: 1, A4B2: 9, A4B3: 1, A4B4: 1, A4B5: 1, A4C1: 1, A4C2: 1, A4C3: 1, A4C4: 9, A4C5: 1, A4D1: 1, A4D2: 1, A4D3: 9, A4D4: 1, A4D5: 1, A5B1: 1, A5B2: 1, A5B3: 9, A5B4: 1, A5B5: 1, A5C1: 1, A5C2: 1, A5C3: 9, A5C4: 1, A5C5: 1, A5D1: 1, A5D2: 9, A5D3: 1, A5D4: 1, A5D5: 1,
+  },
+  gridstate:
+    "999919991919999919999919991999999911999999919991991999999919999919919991999",
+  pretty:
+    "🟥🟥🟥🟥🟩 🟥🟩🟥🟥🟥 🟩🟥🟥🟥🟥 \n🟥🟥🟥🟩🟥 🟥🟥🟥🟥🟩 🟥🟥🟥🟩🟥 \n🟩🟥🟥🟥🟥 🟩🟥🟥🟥🟥 🟥🟥🟥🟥🟩 \n🟥🟩🟥🟥🟥 🟥🟥🟥🟩🟥 🟥🟥🟩🟥🟥 \n🟥🟥🟩🟥🟥 🟥🟥🟩🟥🟥 🟥🟩🟥🟥🟥 ",
+  "table-json": {
+    data: [
+      ["January", "Wendell", "Faith", "Belize"],
+      ["February", "Noel", "Velma", "Nepal"],
+      ["March", "Horace", "Amelia", "Vietnam"],
+      ["April", "Jacob", "Naomi", "Mongolia"],
+      ["May", "Leon", "Ida", "Jordan"],
+    ],
+    headers: ["Months", "Chiroptologists", "Speleologists", "Countries"],
+  },
+  "table-text":
+    "Months     Chiroptologists   Speleologists   Countries  \n---------- ----------------- --------------- -----------\nJanuary    Wendell           Faith           Belize     \nFebruary   Noel              Velma           Nepal      \nMarch      Horace            Amelia          Vietnam    \nApril      Jacob             Naomi           Mongolia   \nMay        Leon              Ida             Jordan     ",
+  url: "https://logic.puzzlebaron.com/play.php?u2=33d066d4fd08efb3b69c0f4f6f516a80",
+  categories: {
+    Chiroptologists: ["Horace", "Jacob", "Leon", "Noel", "Wendell"],
+    Countries: ["Belize", "Jordan", "Mongolia", "Nepal", "Vietnam"],
+    Months: ["January", "February", "March", "April", "May"],
+    Speleologists: ["Amelia", "Faith", "Ida", "Naomi", "Velma"],
+  },
+  "category-keys": ["Months", "Chiroptologists", "Speleologists", "Countries"],
+};
 
 $(document).ready(function () {
   $.ajax({
