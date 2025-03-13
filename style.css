@@ -1,0 +1,97 @@
+body {
+  padding-top: 80px;
+}
+
+.whitespace {
+  white-space: pre-wrap;
+  font-family: monospace;
+}
+
+.prettytable {
+  line-height: 14pt;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+.has-border {
+  border: 1px solid #444;
+}
+
+.no-border {
+  border: 1px solid transparent;
+}
+
+.bottom-border {
+  border-bottom: 1px solid #444;
+}
+
+.right-border {
+  border-right: 1px solid #444;
+}
+
+.gridlinev {
+  width: 1px;
+  background-color: #444;
+  border: 1px solid #444;
+}
+.gridlineh {
+  height: 1px;
+  background-color: #444;
+  border: 1px solid #444;
+}
+
+.vertical-text {
+  text-anchor: start;
+  font-size: 13px;
+  font-weight: bold;
+  fill: black;
+}
+
+.labelboxh {
+  width: 125px;
+  height: 30px;
+  text-align: right;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.labelboxv {
+  height: 125px;
+  width: 30px;
+  font-size: 12px;
+}
+
+.gridheaderh {
+  text-align: center;
+  font-size: 12px;
+  height: 30px;
+}
+
+.gridheaderv {
+  /* text-align: center; */
+  /* font-size: 12px; */
+  width: 30px;
+}
+
+.text-white {
+  fill: white;
+}
+
+.gridcell {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  line-height: 20px;
+  height: 30px;
+  width: 30px;
+}
+
+.anchor-center {
+  text-anchor: middle;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 5px;
+  right: 20px;
+}

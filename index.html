@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="script.js" defer></script>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Solver for Puzzle Baron's Logic Puzzles, by Darci Peoples" />
+    <meta name="author" content="Darci Peoples" />
+    <title>Logic Puzzle Solver</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+    <main role="main" class="container">
+      <div class="jumbotron">
+        <h1>Logic Puzzle Solver</h1>
+        <p class="lead">
+          Solve <b>ANY</b> Puzzle Baron logic puzzle in seconds!
+        </p>
+        <h3>How to use it?</h3>
+        <ol>
+          <li>
+            Generate a new puzzle at
+            <a href="https://logic.puzzlebaron.com/init.php" target="_blank"
+              >https://logic.puzzlebaron.com/init.php</a
+            >
+          </li>
+          <li>Enter the url of the generated puzzle</li>
+          <li>
+            <b class="text-success">Profit!</b>
+          </li>
+        </ol>
+        <div class="card">
+          <div class="card-body">
+            <form id="puzzleInfo">
+              <h5 class="card-text">Puzzle URL</h5>
+              <div class="input-group mb-3">
+                <input
+                  type="url"
+                  class="form-control"
+                  id="url"
+                  name="url"
+                  placeholder="Enter puzzle URL"
+                  value="https://logic.puzzlebaron.com/play.php?u2=4f253892b92d6f1645e458e4a8e41e04"
+                />
+                <div class="input-group-append">
+                  <button id="submit-url" type="submit" class="btn btn-primary">
+                    Solve
+                  </button>
+                </div>
+              </div>
+            </form>
+            <h3>Solution</h3>
+            <h4>URL</h4>
+            <a id="soln-url" target="_blank"></a>
+            <br /><br />
+            <h4>Boxes to submit</h4>
+            <p>You only need to fill in the top section of the grid.</p>
+            <table id="soln-grid"></table>
+            <br />
+            <h4>Answer table</h4>
+            <p>
+              This will be the result shown in the Answer tab when you fill it
+              in.
+            </p>
+            <table
+              id="soln-table-json"
+              class="table table-sm table-striped"
+            ></table>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
