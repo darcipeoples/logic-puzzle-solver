@@ -1,16 +1,16 @@
 # logic-puzzle-solver
-This is the frontend for the Puzzle Baron <a target="_blank" href="https://darcipeoples.com/logic-puzzle-solver/">Logic Puzzle Solver</a>. Read more about it on <a target="_blank" href="https://darcipeoples.com/">darcipeoples.com</a>.
+This is the frontend for the Puzzle Baron [Logic Puzzle Solver](https://darcipeoples.com/logic-puzzle-solver/). Read more about it on [darcipeoples.com](https://darcipeoples.com/).
 
 ## Screenshots
 ### Example Puzzle Input
 
-Generate a puzzle at <a target="_blank" href="https://logic.puzzlebaron.com/init.php">logic.puzzlebaron.com</a>.
+Generate a puzzle at [logic.puzzlebaron.com](https://logic.puzzlebaron.com/init.php).
 
 ![](screenshots/puzzle-baron.png)
 
 ### Example Solver Output
 
-Enter the puzzle URL into the <a target="_blank" href="https://darcipeoples.com/logic-puzzle-solver/">Logic Puzzle Solver</a> to automagically solve it.
+Enter the puzzle URL into the [Logic Puzzle Solver](https://darcipeoples.com/logic-puzzle-solver/) to automagically solve it.
 
 ![](screenshots/solver.png)
 
