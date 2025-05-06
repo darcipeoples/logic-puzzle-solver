@@ -1,12 +1,14 @@
 # logic-puzzle-solver
-This is the frontend for the Puzzle Baron [Logic Puzzle Solver](https://darcipeoples.com/logic-puzzle-solver/). 
+Frontend for the Puzzle Baron Logic Puzzle Solver.
+
+Try it yourself at [darcipeoples.com/logic-puzzle-solver](https://darcipeoples.com/logic-puzzle-solver/).
 
 Read more about it on [darcipeoples.com](https://darcipeoples.com/).
 
 ## Screenshots
 ### Example Puzzle Input
 
-Start a new logic puzzle on Puzzle Baron: [logic.puzzlebaron.com](https://logic.puzzlebaron.com/init.php)
+Start a new logic puzzle on Puzzle Baron: [logic.puzzlebaron.com](https://logic.puzzlebaron.com/init.php).
 
 ![](screenshots/puzzle-baron.png)
 
